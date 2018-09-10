@@ -1,28 +1,36 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
+  text-align: center; }
+  .App .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px; }
+  .App .App-header {
+    background-color: #222;
+    height: 97px;
+    padding: 20px;
+    color: white; }
+    .App .App-header .App-title {
+      font-size: 2em;
+      display: inline;
+      line-height: 89px;
+      vertical-align: top; }
+  .App .App-record-bar {
+    font-size: large;
+    margin: 30px 0; }
+    .App .App-record-bar .recordButton,
+    .App .App-record-bar .stopButton {
+      line-height: 24px;
+      display: inline-flex;
+      padding: 10px;
+      border-bottom: 1px solid #fff; }
+      .App .App-record-bar .recordButton:hover,
+      .App .App-record-bar .stopButton:hover {
+        cursor: pointer;
+        border-bottom: 1px solid #000; }
+    .App .App-record-bar .recordButton {
+      color: red; }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

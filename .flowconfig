@@ -1,0 +1,9 @@
+[ignore]
+.*/src/**/*.test.js
+.*/node_modules/jss/
+
+[libs]
+
+[options]
+module.name_mapper='^Components$' -> '<PROJECT_ROOT>/src/Components'
+  

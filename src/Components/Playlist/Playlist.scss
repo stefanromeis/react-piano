@@ -1,0 +1,27 @@
+.playlist {
+    width: 50%;
+    display: block;
+    transform: translateX(50%);
+    margin-top: 10px;
+    .song {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        .songNumber {
+            margin-right: 5px;
+            vertical-align: middle;
+            font-size: 11px;
+        }
+        input {
+            border: none;
+            padding: 0 0 2px 0;
+            &:hover {
+                cursor: text;
+            }
+        }
+    }
+    .helpText {
+        font-weight: 16px;
+        margin: 20px 0;
+    }
+}

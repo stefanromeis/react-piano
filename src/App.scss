@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+        height: 80px;
+    }
+    .App-header {
+        background-color: #222;
+        height: 97px;
+        padding: 20px;
+        color: white;
+        .App-title {
+            font-size: 2em;
+            display: inline;
+            line-height: 89px;
+            vertical-align: top;
+        }
+    }
+    .App-record-bar {
+        font-size: large;
+        margin: 30px 0;
+        .recordButton,
+        .stopButton {
+            line-height: 24px;
+            display: inline-flex;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+            &:hover {
+                cursor: pointer;
+                border-bottom: 1px solid #000;
+            }
+        }
+        .recordButton {
+            color: red;
+        }
+    }
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

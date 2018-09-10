@@ -1,0 +1,21 @@
+.playlist {
+  width: 50%;
+  display: block;
+  transform: translateX(50%);
+  margin-top: 10px; }
+  .playlist .song {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    .playlist .song .songNumber {
+      margin-right: 5px;
+      vertical-align: middle;
+      font-size: 11px; }
+    .playlist .song input {
+      border: none;
+      padding: 0 0 2px 0; }
+      .playlist .song input:hover {
+        cursor: text; }
+  .playlist .helpText {
+    font-weight: 16px;
+    margin: 20px 0; }
